@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import numpy as np
 from prompting import get_prompt
-from prompt_models import PromptModel
+from prompt_models import PromptModel # This will be based on OpenAI GPT
 import warnings
 
 @click.command()

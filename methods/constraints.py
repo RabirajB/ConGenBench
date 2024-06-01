@@ -6,9 +6,9 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk import pos_tag
 import os
 import sys
-prompt_path = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, "prompt_generation"))
-sys.path.append(prompt_path)
-import prompting, prompt_models
+#prompt_path = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, "prompt_generation"))
+#sys.path.append(prompt_path)
+from prompt_generation import prompting
 
 
 class Constraint:
